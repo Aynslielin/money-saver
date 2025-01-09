@@ -19,6 +19,6 @@ void loop()
   {
   digitalWrite(12, LOW);//藍色暗
   digitalWrite(13, HIGH);//黃色亮
-  delay(1000);//硬幣通過時延遲5秒
+  delay(1000);//硬幣通過時延遲1秒
   }
 }
