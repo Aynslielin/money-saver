@@ -11,7 +11,7 @@ void loop()
 {
   val = analogRead(A1);
   // Serial.println(val);
-  if(val < 50)           //硬幣未通過時亮藍燈
+  if(val < 400)           //硬幣未通過時亮藍燈
   {
   digitalWrite(12, HIGH);//藍色亮
   digitalWrite(13, LOW);//黃色暗
