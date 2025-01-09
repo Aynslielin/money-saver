@@ -122,7 +122,7 @@ void loop() {
   Serial.println(scale1.get_units(10), 1); 
 
   scale1.power_down();			        // 進入睡眠模式
-  delay(1000);
+  delay(100);
   scale1.power_up();               // 結束睡眠模式
 
   Serial.print("10$Weight");
@@ -131,7 +131,7 @@ void loop() {
   Serial.println(scale2.get_units(10), 1);
 
   scale2.power_down();			        // 進入睡眠模式
-  delay(1000);
+  delay(100);
   scale2.power_up();               // 結束睡眠模式
 
   Serial.print("5$Weight");
@@ -140,7 +140,7 @@ void loop() {
   Serial.println(scale3.get_units(10), 1);
 
   scale3.power_down();			        // 進入睡眠模式
-  delay(1000);
+  delay(100);
   scale3.power_up();               // 結束睡眠模式
 
   Serial.print("1$Weight");
@@ -149,7 +149,7 @@ void loop() {
   Serial.println(scale4.get_units(10), 1);
 
   scale4.power_down();			        // 進入睡眠模式
-  delay(1000);
+  delay(100);
   scale4.power_up();               // 結束睡眠模式
 
   int a = scale1.get_units(10)/9.8;
@@ -177,7 +177,7 @@ void loop() {
   lcd.print("T=");
   lcd.print(Total);
 
-  delay(1000);    //延遲1s}
+}
 
 
 }
